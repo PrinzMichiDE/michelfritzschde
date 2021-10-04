@@ -42,8 +42,8 @@ Write-Host "-----"
 
 $record = Read-Host "Enter the subdomain without .$domain - e.g. michelfritzsch for michelfritzsch.$domain"
 $record = $record -replace ".$domain"
-$ticketnumber = "MFR-49"
-$connectorUri = "https://sd.join.de/rest/cb-automation/latest/hooks/36fd85cfa201c8ce06c23a01582c4ca8973146e4"
+$ticketnumber = "Test"
+$connectorUri = ""
 $baseurl = "https://api.cloudflare.com/client/v4/zones"
 $zoneurl = "$baseurl/?name=$domain"
 
